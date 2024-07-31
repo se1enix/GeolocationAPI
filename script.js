@@ -10,7 +10,7 @@ function fillCoordinates(pos) {
 }
 
 function fillingCoordinatesError(err) {
-    console.log(`Coordinates getting error: ${err}. Leaving the field blank.`);
+    console.log(`Coordinates getting error. Leaving the field blank.`, err);
 }
 
 function getCoords() {
